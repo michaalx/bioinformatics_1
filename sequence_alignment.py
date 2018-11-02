@@ -163,8 +163,8 @@ def create_distance_matrix(frequencies):
 
 for seq_record in SeqIO.parse('plazmide.fasta', 'fasta'):
     # dikodonų atvejis
-    codon_length=6
-    count_of_codons_lower_limit=16
+    # codon_length=6
+    # count_of_codons_lower_limit=16
 
     # kodonų atvejis
     codon_length=3
